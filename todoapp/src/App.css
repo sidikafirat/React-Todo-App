@@ -1,0 +1,193 @@
+.App {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.main {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+
+}
+
+.background-text {
+  position: absolute;
+  bottom: 140px;
+  /* Footer'ın üstünde konumlandırmak için 60px yukarıda */
+  right: 20px;
+  /* Sağ köşeden 20px içeride */
+  font-size: 30px;
+  /* Yazı boyutunu küçült */
+  font-weight: bold;
+  /* Yazı kalınlığı */
+  color: rgba(7, 38, 95, 0.5);
+  /* Yazı rengi ve şeffaflık */
+  z-index: 1;
+  /* Footer'ın üstünde görünmesi için z-index'i artır */
+  text-align: center;
+  /* Yazıyı ortalar */
+  animation: moveText 5s ease-in-out infinite;
+  /* Animasyon ekleme */
+}
+
+/* Animasyon tanımlaması */
+@keyframes moveText {
+  0% {
+    transform: translate(-50%, -50%) translateY(0);
+  }
+
+  50% {
+    transform: translate(-50%, -50%) translateY(-10px) translateX(-10px);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) translateY(0) translateX(0);
+  }
+}
+.todo-create .header {
+  width: 100%;
+  /* Başlığı tüm genişlik boyunca yaymak için */
+  font-size: 50px;
+  display: flex;
+  justify-content: flex-start;
+  /* Başlığı sola yaslamak için */
+  margin-bottom: 15px;
+  /* Başlık ile input arasında boşluk oluşturur */
+  color: rgb(7, 38, 95);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo-create .header h2 {
+  margin: 0;
+  /* Başlık etrafındaki varsayılan boşluğu kaldırmak için */
+  font-weight: 200;
+  margin-bottom: 40px;
+}
+
+.todo-create {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /*dikeyde saga al. div icerisinde buonu en saga cektim*/
+  justify-content: center;
+  /*yatayda ortala*/
+
+}
+
+.todo-input {
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  outline: none;
+}
+
+.todo-button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(7, 38, 95);
+  color: gray;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.todo-icons {
+  font-size: 20px;
+  margin-right: 8px;
+  cursor: pointer;
+
+}
+
+.info {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  /* Arka plan rengi isteğe bağlı */
+  text-align: center;
+  /* İçeriği ortalamak için */
+  padding: 10px 0;
+  /* Üst ve alt boşluklar */
+  color: #333;
+  /* Yazı rengi isteğe bağlı */
+  border-top: 1px solid #ddd;
+  /* Üst kenarda ince bir çizgi */
+}
+
+.info a {
+  color: rgb(7, 38, 95);
+  /* Bağlantı rengini ayarlama */
+  text-decoration: none;
+  /* Alt çizgi kaldırma */
+}
+
+.info a:hover {
+  text-decoration: underline;
+  /* Üzerine gelindiğinde altını çizme */
+  color: rgba(7, 38, 95, 0.5);
+}
+.image-container {
+  position: absolute;
+  top: 30px; /* Üstten 30px boşluk bırakır */
+  left: 30px; /* Soldan 30px boşluk bırakır */
+  z-index: 2; /* Diğer içeriklerin üstünde görünmesi için */
+  display: flex;
+  flex-direction: column; /* Resimleri alt alta sıralamak için */
+  gap: 10px; /* Resimler arasındaki boşluk */
+}
+
+.image-container img {
+  width: 180px; /* Resim genişliği */
+  height: auto; /* Yüksekliği otomatik ayarla */
+  animation: moveText 5s ease-in-out infinite; /* Animasyon ekleme */
+}
+
+/* Animasyon tanımlaması */
+@keyframes moveText {
+  0% {
+    transform: translateY(0) translateX(0); /* Başlangıç konumu */
+  }
+
+  50% {
+    transform: translateY(-10px) translateX(-10px); /* Yarıda hareket */
+  }
+
+  100% {
+    transform: translateY(0) translateX(0); /* Son konum */
+  }
+}
+.balon2 {
+    margin-top: -50px;
+    margin-left: -35px;
+    z-index: -1;
+}
+/* Sürüklenebilir elemanların görünümünü iyileştirmek için CSS */
+.dragging {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+.yerdegistirme{
+  background-color: rgb(7, 38, 95);
+  color: gray;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+
+
