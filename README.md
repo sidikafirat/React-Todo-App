@@ -18,10 +18,10 @@ Bu projede, React kullanarak temel bir Todo List uygulaması geliştirilmiştir.
    cd todo-app
 2. **Bağımlılıkları  Yükleyin:**
    ```bash
-   cd todo-app
+   npm install
 3. **Uygulamayı Çalıştırın:**
    ```bash
-   cd todo-app
+   npm start
 
 ## Kullanım
 
