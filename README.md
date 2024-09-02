@@ -46,7 +46,8 @@ Bu projede, React kullanarak temel bir Todo List uygulaması geliştirilmiştir.
 - Todo'nun sağındaki **yukarı** ve **aşağı** ok butonlarıyla todo'nun sırasını değiştirin.
 
 ## Linkler
-
+- Todo App Web URL'si: https://sidikafirat.github.io/React-Todo-App/
+- Youtube Site Kullanımı:
 
 
 ## Dosya Yapısı
