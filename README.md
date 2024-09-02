@@ -45,6 +45,10 @@ Bu projede, React kullanarak temel bir Todo List uygulaması geliştirilmiştir.
 
 - Todo'nun sağındaki **yukarı** ve **aşağı** ok butonlarıyla todo'nun sırasını değiştirin.
 
+## Linkler
+
+
+
 ## Dosya Yapısı
 
 - **`App.js`**: Uygulamanın ana bileşeni. Todo'ları yönetir ve oluşturur.
