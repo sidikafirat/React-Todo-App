@@ -1,6 +1,6 @@
 # Todo List Uygulaması
 
-Bu projede, React kullanarak temel bir Todo List uygulaması geliştirilmiştir. Uygulama, kullanıcıların yapılacak işleri (todoları) eklemelerine, düzenlemelerine, tamamlamalarına ve silmelerine olanak tanır. Ayrıca, todoların sırasını yukarı ve aşağı taşımak için işlevsellik de sunar.
+Bu projede, React kullanarak temel bir Todo List uygulaması geliştirdim. Uygulama, kullanıcıların yapılacak işleri (todoları) eklemelerine, düzenlemelerine, tamamlamalarına ve silmelerine olanak tanır. Ayrıca, todoların sırasını yukarı ve aşağı taşımak için işlevsellik de sunar.
 
 ## Özellikler
 
